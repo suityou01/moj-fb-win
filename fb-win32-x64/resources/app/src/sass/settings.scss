@@ -1,0 +1,9 @@
+@import-normalize;
+
+$govuk-assets-path: '../../assets/';
+
+@import "govuk-frontend/govuk/all";
+
+@import "all";
+
+.govuk-tabs__panel p:last-of-type { margin-bottom: 0; }

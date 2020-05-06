@@ -1,0 +1,14 @@
+{
+  "extends": "standard",
+  "env": {
+    "node": true,
+    "es2020": true
+  },
+  "plugins": [
+    "html"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}

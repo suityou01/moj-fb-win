@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Notification</title>
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'" />
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'" />
+
+    <link rel="stylesheet" href="assets/stylesheets/notification-0.5.41.css" />
+  </head>
+  <body>
+    <div class="pane">
+      <div class="pane--header">
+        <h1 id="consoleInstallerTitle" class="govuk-heading-l">
+          Form Builder <span>Editor Console</span>
+        </h1>
+      </div>
+      <div class="pane--body">
+        <div class="spinner">
+          <img src="assets/images/govuk-crown-animated.gif" alt="" />
+        </div>
+        <div class="info govuk-body-m">
+          <h2 id="notification-phase" class="govuk-heading-l">
+            <!-- -->
+          </h2>
+          <p id="notification-message" class="govuk-body-l">
+            <!-- -->
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      /*
+       *  App
+       */
+      require('./lib/notification')
+    </script>
+  </body>
+</html>
+
